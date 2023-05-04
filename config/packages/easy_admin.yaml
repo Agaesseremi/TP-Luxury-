@@ -1,0 +1,9 @@
+easy_admin:
+    entities:
+        Product:
+            class: App\Entity\Product
+            label: Products
+            fields:
+                - { property: 'name' }
+                - { property: 'description' }
+                - { property: 'price' }
